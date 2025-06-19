@@ -1,0 +1,26 @@
+{
+  "name": "ai-content-ideator",
+  "version": "0.1.0",
+  "description": "Web app that generates blog post, video, and social media content ideas using AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Please navigate to either the 'backend' or 'frontend' directories to run the application.\"",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "content",
+    "ideas",
+    "generator",
+    "blog",
+    "video",
+    "social media"
+  ],
+  "author": "AI Content Ideator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
